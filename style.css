@@ -6,6 +6,11 @@ html, body{
 	background-color: hsl(0, 0%, 98%);
 }
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
 /*.main-header {
 	background-color: hsl(0, 0%, 98%);
 	padding: 0px;
@@ -19,13 +24,13 @@ html, body{
 	display: flex;
 	float: right;
 	position: relative;
-	bottom: 30px;
+	bottom: 10px;
 	margin-right: 50px;
 }
 
 .main-header .header-logo img {
 	position: relative;
-	top: 15px;
+	top: 25px;
 	max-width: 90px;
 	margin-left: 50px;
 
@@ -70,15 +75,40 @@ html, body{
 	padding: 0px;
 }
 
+#my-content {
+	margin-left: 50px;
+	line-height: 7em;
+	position: relative;
+	bottom: 250px;
+
+}
+
+.mymage #rpx {
+	height: 300px;
+	float: right;
+	position: relative;
+	z-index: 2;
+
+}
+
+.mymage #lpx {
+	height: 300px;
+	position: relative;
+	z-index: 2;
+	bottom: -180px;
+}
+
 .article h1{
 	font-family: 'DM Serif Display', serif;
 	text-align: left;
 	font-size: 50px;
+	line-height: 50px;
 }
 
 .article p {
 	font-size: 14px;
 	line-height: 1.5em;
+	margin-top: 20px;
 
 }
 
@@ -87,7 +117,7 @@ html, body{
 	float: right;
 	margin-right: 100px;
 	position: relative;
-	bottom: 270px;
+	top: -570px;
 }
 
 .section-button button {
