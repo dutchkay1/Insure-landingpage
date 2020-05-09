@@ -1,7 +1,6 @@
 html, body{
 	margin: 0px,
 	padding: 0px;
-	/*font-size: 16px;*/
 	font-family: 'Karla', sans-serif;
 	background-color: hsl(0, 0%, 98%);
 	-webkit-box-sizing: border-box;
@@ -12,13 +11,6 @@ html, body{
 	margin: 0;
 	padding: 0;
 }
-
-/*.main-header {
-	background-color: hsl(0, 0%, 98%);
-	padding: 0px;
-	margin: 0px;
-	height: 20px;
-}*/
 
 .main-header_menu .main-header_menu-link {
 	list-style: none;
@@ -35,7 +27,6 @@ html, body{
 	top: 25px;
 	max-width: 90px;
 	margin-left: 50px;
-
 }
 
 .menu-link a{
@@ -43,7 +34,6 @@ html, body{
 	float: left;
 	text-decoration: none;
 	color: #a09e9edb;
-	/*font-size: 15px;*/
 }
 
 .menu-link a:hover {
@@ -63,10 +53,6 @@ html, body{
 	color: white !important;
 	font-weight: bolder;
 }
-
-/*.menu-link a:hover {
-	color: white;
-}*/
 
 .first-content {
 	background-color: hsl(256, 26%, 20%);
@@ -101,7 +87,6 @@ html, body{
 	font-size: 14px;
 	line-height: 1.5em;
 	margin-top: 20px;
-
 }
 
 .mymage #rpx {
@@ -119,7 +104,6 @@ html, body{
 }
 
 .my-image {
-
 	float: right;
 	margin-right: 100px;
 	position: relative;
@@ -127,7 +111,6 @@ html, body{
 }
 
 .section-button button {
-
 	background-color: hsl(256, 26%, 20%);
 	border: 1px solid white;
     color: white;
@@ -137,7 +120,6 @@ html, body{
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
-
 }
 
 .section-button button a{
@@ -155,7 +137,6 @@ html, body{
 	margin-left: 50px;
 	position: relative;
 	top: 300px;
-	
 }
 
 .middle-section_heading {
@@ -196,38 +177,53 @@ html, body{
 
 .middle-section_paragraph .paragraph-content {
 	color: #837d87;
+	font-size: 15px;
 }
 
-/*.middle-section_heading hr {
-	display: block;
-	margin-bottom: 100px;
-}*/
-
-/*.middle-section .middle-section_heading {
-	text-align: left;
+.middle-section_lower_background {
+	background-color: hsl(256, 26%, 20%);
+	background-image: url(images/bg-pattern-how-we-work-desktop.svg);
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 1200px;
 	position: relative;
+	top: 80px;
+	margin-left: 35px;
+}
 
-}*/
-
-/*.middle-section .middle-section_heading h1 {
-	font-weight: bold;
-	font-size: 80px;
-}*/
-
-
-/*.middle-section .middle-section_heading hr {
-	width: ;
+.middle-section_lower_background h1 {
+	font-family: 'DM Serif Display', serif;
+	font-weight: 700;
+	font-size: 40px;
+	color: #fff;
+	padding: 40px;
+	margin-left: 120px;
+	margin-bottom: 50px;
 	position: relative;
-}*/
+	top: 20px;
+}
+
+.middle-section_lower_background a {
+	border: 1px solid #fff;
+	width: 100px;
+	height: 25px;
+	color: #fff;
+	padding: 3px 15px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    margin-right: 200px;
+    position: relative;
+    bottom: 150px;
+
+}
+
+.middle-section_lower_background a:hover {
+	background-color: #fff;
+	color: rgb(45, 38, 64);
+	font-weight: 700;
+}
 
 
-
-
-
-
-
-/*.clear {
-	clear: left; 
-	display: block;
-}*/
 
