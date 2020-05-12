@@ -14,7 +14,7 @@ html, body{
 
 .main-header_menu .main-header_menu-link {
 	list-style: none;
-	padding: 0px;
+	padding: 0;
 	display: flex;
 	float: right;
 	position: relative;
@@ -208,7 +208,7 @@ html, body{
 	width: 100px;
 	height: 25px;
 	color: #fff;
-	padding: 3px 15px;
+	padding: 4px 15px;
     font-size: 15px;
     text-decoration: none;
     text-align: center;
@@ -225,5 +225,54 @@ html, body{
 	font-weight: 700;
 }
 
+.main-footer {
+	margin-top: 500px;
+}
 
 
+.main-footer_social-links {
+	text-align: right;
+	margin-right: 180px;
+
+}
+
+.footer-logo {
+	width: 80px;
+	margin-left: 190px;
+	position: relative;
+	top: 30px;
+}
+
+.social-links_links img {
+	width: 18px;
+	margin: 5px;
+}
+
+.footer-menu {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	
+}
+
+.footer_menu-columns ul {
+	list-style: none;
+	padding: 0;
+	text-transform: uppercase;
+	margin: 70px;
+	margin-top: 40px;
+	font-family: "Karla", sans-serif;
+	color: #757475bf;
+}
+
+.footer_menu-columns .menu-paragraphs {
+	margin-bottom: 20px;
+}
+
+.footer_menu-columns li {
+	margin-bottom: 8px;
+	font-size: 12px;
+	font-weight: 700;
+	font-family: "Karla", sans-serif;
+	color: #727173;
+}
